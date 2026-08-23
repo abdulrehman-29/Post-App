@@ -24,15 +24,15 @@ import {
   updateDoc
 } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBOHN6vJAzmOt_wWxdVi7scF6PnnUTSnrM",
-  authDomain: "post-app-557c1.firebaseapp.com",
-  projectId: "post-app-557c1",
-  storageBucket: "post-app-557c1.firebasestorage.app",
-  messagingSenderId: "25685760108",
-  appId: "1:25685760108:web:c235b22da7a83f7d20e049",
-  measurementId: "G-NQYFDEGXQP"
-};
+  const firebaseConfig = {
+    apiKey: "<your-config>",
+    authDomain: "<your-config>",
+    projectId: "<your-config>",
+    storageBucket: "<your-config>",
+    messagingSenderId: "<your-config>",
+    appId: "<your-config>",
+    measurementId: "<your-config>"
+  };
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
