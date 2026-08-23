@@ -14,7 +14,7 @@ loginBtn.addEventListener("click", () => {
       title: "Warning!",
       text: "Please fill in all fields!",
       icon: "warning",
-      timer: 2000,
+      timer: 800,
       showConfirmButton: false
     });
   }
@@ -33,7 +33,7 @@ loginBtn.addEventListener("click", () => {
         title: "Success!",
         text: "Logged in successfully!",
         icon: "success",
-        timer: 800,
+        timer: 700,
         showConfirmButton: false
       });
 
@@ -41,8 +41,8 @@ loginBtn.addEventListener("click", () => {
       loginPassword.value = "";
 
       setTimeout(() => {
-        window.location.href = "./test.html";
-      }, 1000);
+        window.location.href = "./home.html";
+      }, 900);
     })
     .catch((error) => {
       let message = "Something went wrong!";
@@ -59,7 +59,7 @@ loginBtn.addEventListener("click", () => {
         title: "Error!",
         text: message,
         icon: "error",
-        timer: 2000,
+        timer: 1500,
         showConfirmButton: false
       });
     });
