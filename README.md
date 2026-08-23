@@ -19,7 +19,7 @@ A modern, responsive, and full-featured Web Application that enables users to cr
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-- **Authentication & Backend Services:** Firebase / REST API / Local Storage *(specify your tech)*
+- **Authentication & Backend Services:** Firebase / REST API / Local Storage
 - **Deployment:** Netlify
 
 ---
@@ -36,4 +36,4 @@ To run this project on your local machine, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone [https://github.com/abdulrehman-29/your-repo-name.git](https://github.com/abdulrehman-29/your-repo-name.git)
